@@ -27,7 +27,7 @@ $('body').on('click', '#add-country', function(event){
 $('body').on('click', '.country-buttons', function(event){
      $('.giphy-div').empty();
      searchCountry = $(this).attr('data-country');
-     queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchCountry + "&limit=10" +"&api_key=dc6zaTOxFJmzC";
+     queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchCountry + "&limit=10" +"&api_key=dc6zaTOxFJmzC";
      console.log(queryURL);
      $.ajax({url: queryURL, method: 'GET'})
           .done(function(response) {
