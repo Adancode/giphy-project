@@ -4,6 +4,18 @@
    Author's custom styles
    ========================================================================== */
 
+.jumbotron {
+    background-color: rgba(0,0,0,0.1);
+}
+
+body {
+     background: url('../img/paris.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
 .country-buttons {
      margin-left: 4px;
      margin-right: 4px;
